@@ -1,0 +1,10 @@
+<h1>Blogger name: <%= @blogger.name %></h1>
+
+#total likes of bloggers posts
+<h2>Total likes: <%= @blogger.total_likes %></h2>
+
+#link to bloggers featured post
+<h2><%= link_to @blogger.featured_post.title, @blogger.featured_post %></h2>
+
+#bonus: list of that users top 5 most written
+#about destinations (the destinations with the most posts)
